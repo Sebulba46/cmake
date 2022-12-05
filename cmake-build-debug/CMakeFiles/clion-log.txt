@@ -1,0 +1,26 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\egors\CLionProjects\cmake -B C:\Users\egors\CLionProjects\cmake\cmake-build-debug
+CMake Error at C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindBoost.cmake:1825 (file):
+  file STRINGS file "c:/mingw/include/boost/version.hpp" cannot be read.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Warning at C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindBoost.cmake:1015 (message):
+  Imported targets and dependency information not available for Boost version
+  0.0.0 (all versions older than 1.33)
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindBoost.cmake:1507 (_Boost_COMPONENT_DEPENDENCIES)
+  C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindBoost.cmake:2118 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Error at C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Boost (missing: filesystem) (found version "0.0.0")
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FindBoost.cmake:2376 (find_package_handle_standard_args)
+  CMakeLists.txt:8 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/egors/CLionProjects/cmake/cmake-build-debug/CMakeFiles/CMakeOutput.log".
